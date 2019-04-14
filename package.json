@@ -1,0 +1,20 @@
+{
+    "name": "webserver",
+    "version": "1.0.0",
+    "description": "Webserver básico en node.js",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "nodemon": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "webserver"
+    ],
+    "author": "gorydev",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3",
+        "hbs": "^4.0.3"
+    }
+}
